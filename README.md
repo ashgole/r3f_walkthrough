@@ -10,7 +10,7 @@
 
 webapp : <a href="https://ashgole.github.io/r3f_landing_page" target="_blank">https://ashgole.github.io/r3f_landing_page</a>
 
-Github : <a href="https://github.com/ashgole/r3f_landing_page" target="_blank">https://github.com/ashgole/r3f_landing_page</a>
+Github : <a href="https://github.com/ashgole/r3f_walkthrough" target="_blank">https://github.com/ashgole/r3f_walkthrough</a>
 
 ## Tags
 

@@ -1,7 +1,6 @@
 import { AccumulativeShadows, Environment, Gltf, RandomizedLight, Sky, useScroll } from '@react-three/drei'
-import { useThree } from '@react-three/fiber'
+
 import React, { useEffect, useState } from 'react'
-import { degToRad } from 'three/src/math/MathUtils'
 
 const Experience = () => {
 
