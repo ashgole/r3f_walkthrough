@@ -1,8 +1,10 @@
-import { AccumulativeShadows, Environment, Gltf, RandomizedLight, Sky } from '@react-three/drei'
+import { AccumulativeShadows, Environment, Gltf, RandomizedLight, Sky, useScroll } from '@react-three/drei'
+import { useThree } from '@react-three/fiber'
 import React, { useEffect, useState } from 'react'
 import { degToRad } from 'three/src/math/MathUtils'
 
 const Experience = () => {
+
     // const { lightposition } = useControls({
     //     lightposition: {
     //         value: [0, 0, 0], // default position
@@ -11,6 +13,7 @@ const Experience = () => {
     //         max: 10,
     //     },
     // });
+
     const [isMobile, setIsMobile] = useState(false)
 
     useEffect(() => {
@@ -28,7 +31,7 @@ const Experience = () => {
         <>
             <group
                 position={isMobile ? [0, 1, 0] : [0, 0, 0]}
-                scale={restaurantScalingFactor} rotation-y={degToRad(-7)} rotation-x={degToRad(25)}>
+                scale={restaurantScalingFactor}  >
                 <Gltf src="models/Restaurant.glb" scale={0.3} castShadow />
                 <AccumulativeShadows
                     temporal
