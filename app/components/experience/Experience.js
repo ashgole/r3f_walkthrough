@@ -1,7 +1,6 @@
 import { AccumulativeShadows, Gltf, RandomizedLight } from '@react-three/drei';
 import { Canvas, useThree } from '@react-three/fiber';
 import { useEffect } from 'react';
-import { useControls } from 'leva'; // Assuming you are using Leva for controls
 
 const CarModel = () => {
     return (
@@ -22,14 +21,15 @@ const CarModel = () => {
 };
 
 const Experience = () => {
-    const { cameraposition } = useControls({
-        cameraposition: {
-            value: [3.6,1.4,-3.9],// default position
-            step: 0.1, // adjust the step size for finer control
-            min: -10,
-            max: 10,
-        },
-    });
+    const cameraposition=[3.6,1.4,-3.9]
+    // const { cameraposition } = useControls({
+    //     cameraposition: {
+    //         value: [3.6,1.4,-3.9],// default position
+    //         step: 0.1, // adjust the step size for finer control
+    //         min: -10,
+    //         max: 10,
+    //     },
+    // });
 
     const { camera } = useThree();
 
