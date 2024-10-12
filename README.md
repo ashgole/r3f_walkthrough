@@ -23,11 +23,11 @@ Github : <a href="https://github.com/ashgole/r3f_walkthrough" target="_blank">ht
 
 ## Screenshots
 
-![page 1](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/1.png)
-![page 2](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/2.png)
-![page 3](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/3.png)
-![page 4](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/4.png)
-![page 5](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/5.png)
+![page 1](https://github.com/ashgole/r3f_walkthrough/blob/main/screenshots/1.png)
+![page 2](https://github.com/ashgole/r3f_walkthrough/blob/main/screenshots/2.png)
+![page 3](https://github.com/ashgole/r3f_walkthrough/blob/main/screenshots/3.png)
+![page 4](https://github.com/ashgole/r3f_walkthrough/blob/main/screenshots/4.png)
+![page 5](https://github.com/ashgole/r3f_walkthrough/blob/main/screenshots/5.png)
 
 ## how to run
 
