@@ -113,15 +113,19 @@ export const UI = () => {
       {/* About Front and Battery */}
       <section
         ref={sixthSec}
-        className="md:w-2/3 h-screen w-screen flex items-end p-8 lg:p-20 select-none max-w-screen-xl mx-auto opacity-0"
+        className="md:w-2/3 h-screen w-screen flex items-start p-8 lg:p-20 select-none max-w-screen-xl mx-auto opacity-0"
       >
-        <div>
-          <h2 className="text-2xl font-bold font-serif">Front and Battery</h2>
-          <p className="mt-2">
-            The Tesla Model 3 is equipped with a robust battery pack that provides impressive range and performance.
+        <div className="flex items-center justify-center flex-col w-full text-2xl hover:underline">
+
+          <p align="center">
+            <img className="w-32" src="https://www.ashabb.com/logo.ico" alt="ASHABB logo" />
           </p>
+          <h1 align='center'>
+            <a href="https://www.ashabb.com" target="_blank"> We offer freelance web development using <br /> MERN, NextJS and ThreeJS.</a>
+          </h1>
+
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   );
 };
