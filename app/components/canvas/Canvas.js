@@ -19,7 +19,7 @@ const CanvasC = () => {
 
         <Suspense fallback={
           <Html fullscreen>
-            <div className="text-center p-4 flex flex-col justify-center items-center text-blue-400 border w-screen h-screen">
+            <div className="text-center p-4 flex flex-col justify-center items-center text-blue-400 w-screen h-screen">
               <div className="text-3xl mb-4">Loading, please wait...</div>
               <p className="text-lg">
                 Welcome to the Tesla Model Showcase! 🚗
