@@ -29,6 +29,10 @@ Github : <a href="https://github.com/ashgole/r3f_walkthrough" target="_blank">ht
 ![page 4](https://github.com/ashgole/r3f_walkthrough/blob/main/screenshots/4.png)
 ![page 5](https://github.com/ashgole/r3f_walkthrough/blob/main/screenshots/5.png)
 
+## reference
+
+*Model downloaded from* - https://www.turbosquid.com/3d-models/3d-tesla-model-s-plaid-2023-2248474
+
 ## how to run
 
 ```
