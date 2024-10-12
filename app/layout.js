@@ -14,17 +14,16 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "ASHABB Tesla Car walkthrough | React Three Fiber",
-  description: "Explore the ASHABB landing page featuring stunning 3D visuals created with React Three Fiber. Discover our projects and innovations in a captivating environment.",
-  keywords: "React Three Fiber, 3D Graphics, Web Development, Landing Page, Interactive Design, ASHABB, Frontend Development",
+  description: "This project utilizes Next.js and React Three Fiber to render and interact with 3D models on the web. The application features smooth scroll-based animations using ScrollControls and OrbitControls, making it responsive across devices. The 3D models are loaded using GLTF, and the UI is styled with TailwindCSS. Deployed on Vercel, the project showcases modern frontend development techniques with an emphasis on performance, responsiveness, and user interaction.",
   authors: [{ name: "Ashish Gole - ASHABB", url: "https://ashabb.vercel.app" }],
   openGraph: {
     title: "ASHABB Tesla Car walkthrough | React Three Fiber",
     description: "Explore the ASHABB landing page featuring stunning 3D visuals created with React Three Fiber.",
-    url: "https://ashabb.vercel.app",
+    url: "https://www.ashabb.com/",
     images: [
       {
-        url: "https://ashabb.vercel.app/logo.jpg",
-        alt: "ASHABB R3F Landing Page",
+        url: "https://www.ashabb.com/logo.jpg",
+        alt: "ASHABB Tesla Car walkthrough | React Three Fiber",
       },
     ],
   },
