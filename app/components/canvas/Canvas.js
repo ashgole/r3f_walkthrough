@@ -1,9 +1,8 @@
 'use client'
 import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
-import { Environment, Html, OrbitControls, Sky } from '@react-three/drei'
+import {  Html, } from '@react-three/drei'
 import SceneC from '../scene/SceneC'
-import { Perf } from 'r3f-perf'
 
 
 const CanvasC = () => {
@@ -11,7 +10,7 @@ const CanvasC = () => {
     <>
       {/* <Canvas shadows  > */}
       <Canvas shadows gl={{ logarithmicDepthBuffer: true, antialias: false }}>
-      <Perf position='top-left'/>
+      {/* <Perf position='top-left'/> */}
         {/* <OrbitControls /> */}
         {/* <axesHelper args={[5]} /> */}
         {/* <Environment preset="forest" /> */}
