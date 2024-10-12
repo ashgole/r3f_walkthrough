@@ -8,12 +8,13 @@ import SceneC from '../scene/SceneC'
 const CanvasC = () => {
   return (
     <>
-      <Canvas shadows  >
+      {/* <Canvas shadows  > */}
+      <Canvas shadows >
         {/* <OrbitControls /> */}
-        {/*<axesHelper args={[5]} /> */}
-        <Environment preset="sunset" />
+        <axesHelper args={[5]} />
+        {/* <Environment preset="forest" /> */}
         <Sky />
-        <ambientLight />
+         <ambientLight />
         <directionalLight position={[10, 10, 10]} />
 
         <Suspense fallback={
