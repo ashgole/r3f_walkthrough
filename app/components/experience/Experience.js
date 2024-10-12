@@ -1,6 +1,7 @@
 import { ContactShadows, Environment, Lightformer, RandomizedLight, useGLTF } from '@react-three/drei';
 import { applyProps, useThree, } from '@react-three/fiber';
 import { useMemo, useState } from 'react';
+import { Effects } from './Effects.js';
 
 const CarModel = () => {
     const { scene, nodes, materials } = useGLTF('models/car.gltf')
@@ -84,7 +85,7 @@ const Experience = () => {
                 <Lightformer form="ring" color="red" intensity={10} scale={2} position={[10, 5, 10]} onUpdate={(self) => self.lookAt(0, 0, 0)} />
             </Environment>
 
-            {/* <Effects /> */}
+            <Effects />
         </>
     );
 };
