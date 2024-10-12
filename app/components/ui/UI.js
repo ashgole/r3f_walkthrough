@@ -117,13 +117,14 @@ export const UI = () => {
       >
         <div className="flex items-center justify-center flex-col w-full text-2xl hover:underline">
 
-          <p align="center">
-            <img className="w-32" src="https://www.ashabb.com/logo.ico" alt="ASHABB logo" />
-          </p>
-          <h1 align='center'>
-            <a href="https://www.ashabb.com" target="_blank"> We offer freelance web development using <br /> MERN, NextJS and ThreeJS.</a>
-          </h1>
-
+          <a href="https://www.ashabb.com" target="_blank">
+            <p align="center">
+              <img className="w-32" src="https://www.ashabb.com/logo.ico" alt="ASHABB logo" />
+            </p>
+            <h1 align='center'>
+              We offer freelance web development using <br /> MERN, NextJS and ThreeJS.
+            </h1>
+          </a>
         </div>
       </section >
     </div >
