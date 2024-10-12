@@ -7,7 +7,7 @@
 
 # ASHABB Tesla Car walkthrough - React Three Fiber
 
-### You're working on a project that renders 3D models using Three.js and React Three Fiber, incorporating GLTF models with dynamic lighting and shadows. The UI is built using React.js and TailwindCSS, with mobile responsiveness in mind. The project includes animations and camera controls for an interactive 3D experience.
+### This project utilizes Next.js and React Three Fiber to render and interact with 3D models on the web. The application features smooth scroll-based animations using ScrollControls and OrbitControls, making it responsive across devices. The 3D models are loaded using GLTF, and the UI is styled with TailwindCSS. Deployed on Vercel, the project showcases modern frontend development techniques with an emphasis on performance, responsiveness, and user interaction.
 
 ## Resource links
 
