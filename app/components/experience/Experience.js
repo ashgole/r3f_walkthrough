@@ -1,8 +1,6 @@
-import { AccumulativeShadows, ContactShadows, Environment, Lightformer, RandomizedLight, useGLTF } from '@react-three/drei';
-import { applyProps, Canvas, useThree } from '@react-three/fiber';
-import { useEffect, useMemo } from 'react';
-import { Effects } from './Effects';
-import { useControls } from 'leva';
+import { ContactShadows, Environment, Lightformer, RandomizedLight, useGLTF } from '@react-three/drei';
+import { applyProps, useThree,} from '@react-three/fiber';
+import {  useMemo } from 'react';
 
 const CarModel = () => {
     const { scene, nodes, materials } = useGLTF('models/car.gltf')
@@ -11,8 +9,12 @@ const CarModel = () => {
     useMemo(() => {
         applyProps(carMaterial.material, { metalness: 1, roughness: 0, color: 'black' })
     }, [])
+
+    const { viewport } = useThree();
+    const scale = viewport.width < 7 ? 0.015 : 0.03;  // Scale down for mobile screens (width < 640px)
+
     return (
-        <primitive object={scene} scale={0.03} />
+        <primitive object={scene} scale={scale} />
     );
 };
 
