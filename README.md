@@ -5,13 +5,13 @@
 <a href="https://www.ashabb.com" target="_blank"> We offer freelance web development using <br/> MERN, NextJS and ThreeJS.</a>
 </h1>
 
-# ASHABB Tesla Car walkthrough React Three Fiber
+# ASHABB Tesla Car walkthrough - React Three Fiber
 
 ### You're working on a project that renders 3D models using Three.js and React Three Fiber, incorporating GLTF models with dynamic lighting and shadows. The UI is built using React.js and TailwindCSS, with mobile responsiveness in mind. The project includes animations and camera controls for an interactive 3D experience.
 
 ## Resource links
 
-webapp : <a href="https://ashabb-tesla.vercel.app/" target="_blank">https://ashabb-tesla.vercel.app/</a>
+webapp : <a href="https://ashabb-tesla.vercel.app/" target="_blank">https://ashabb-tesla.vercel.app</a>
 
 Github : <a href="https://github.com/ashgole/r3f_walkthrough" target="_blank">https://github.com/ashgole/r3f_walkthrough</a>
 
