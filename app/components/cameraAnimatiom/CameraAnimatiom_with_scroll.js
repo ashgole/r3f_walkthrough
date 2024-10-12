@@ -8,7 +8,8 @@ const CameraAnimation = () => {
 
     // Define the spline curve
     const points = [
-        new Vector3(3.6, 1.4, -3.9),
+        new Vector3(0.3, 6.9, -1.1),
+        // new Vector3(3.6, 1.4, -3.9),
         new Vector3(0.1, 1.4, -3.9),
         new Vector3(-5.1, 2.1, 0.0),
         new Vector3(-1.4, 1.4, 2.1),
