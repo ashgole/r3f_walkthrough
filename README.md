@@ -2,13 +2,13 @@
 <a href="https://www.ashabb.com" target="_blank"> We offer freelance web development using MERN, NextJS and ThreeJS.</a>
 </h1>
 
-# ASHABB Landing Page using React Three Fiber
+# ASHABB Tesla Car walkthrough React Three Fiber
 
-### This project showcases various pet animals using **Next.js** and **React Three Fiber**. It provides an interactive 3D experience, allowing users to explore different breeds of pets in a visually appealing manner.
+### You're working on a project that renders 3D models using Three.js and React Three Fiber, incorporating GLTF models with dynamic lighting and shadows. The UI is built using React.js and TailwindCSS, with mobile responsiveness in mind. The project includes animations and camera controls for an interactive 3D experience.
 
 ## Resource links
 
-webapp : <a href="https://ashgole.github.io/r3f_landing_page" target="_blank">https://ashgole.github.io/r3f_landing_page</a>
+webapp : <a href="https://ashabb-tesla.vercel.app/" target="_blank">https://ashabb-tesla.vercel.app/</a>
 
 Github : <a href="https://github.com/ashgole/r3f_walkthrough" target="_blank">https://github.com/ashgole/r3f_walkthrough</a>
 
@@ -20,17 +20,17 @@ Github : <a href="https://github.com/ashgole/r3f_walkthrough" target="_blank">ht
 
 ## Screenshots
 
-![page 0](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/0.png)
 ![page 1](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/1.png)
 ![page 2](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/2.png)
 ![page 3](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/3.png)
 ![page 4](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/4.png)
+![page 5](https://github.com/ashgole/r3f_landing_page/blob/main/screenshots/5.png)
 
 ## how to run
 
 ```
-git clone https://github.com/ashgole/r3f_landing_page.git
-cd r3f_landing_page
+git clone https://github.com/ashgole/r3f_walkthrough.git
+cd r3f_walkthrough
 npm i
 npm run dev
 ```
